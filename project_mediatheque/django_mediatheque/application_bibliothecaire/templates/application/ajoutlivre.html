@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajouter un livre</title>
+</head>
+<body>
+    <p>Ajouter un livre!</p>
+    <form action="" method="post" novalidate>
+    {% csrf_token %}
+    {{ creationLivre }}
+    <input type="submit" value="Envoyer">
+    </form>
+
+
+</body>
+</html>

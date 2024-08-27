@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier d'un Jeu De Plateau</title>
+</head>
+<body>
+    <div>
+      <p>Modifier d'un Jeu De Plateau!</p>
+      <form action="" method="post" novalidate>
+      {% csrf_token %}
+      {{ updateJdp }}
+      <input type="submit" value="Envoyer">
+      </form>
+
+    </div>
+</body>
+</html>
